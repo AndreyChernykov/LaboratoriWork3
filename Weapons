@@ -1,0 +1,36 @@
+abstract class Weapons{
+	
+	private enum MyWeapons{
+		KNIFE,
+		RIFLE,
+		BOW;
+	}
+	
+	private String knife;
+	private String rifle;
+	private String bow;
+	
+	public String getKnife() {
+		return knife;
+	}
+	
+	public String getRifle() {
+		return rifle;
+	}
+	
+	public String getBow() {
+		return bow;
+	}
+	
+	public void setKnife(String knife) {
+		this.knife = knife;
+	}
+	
+	public void setRifle(String rifle) {
+		this.rifle = rifle;
+	}
+	
+	public void setBow(String bow) {
+		this.bow = bow;
+	}
+}
