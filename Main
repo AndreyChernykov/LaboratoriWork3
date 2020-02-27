@@ -1,0 +1,37 @@
+/*
+Описать иерархию классов для приложения Оружие
+Иерархия должна включать в себя минимум один базовый абстрактный класс и два наследника.+
+Все свойства классов обязаны иметь модификаторы видимости private и соответствующие им методы-мутаторы.+
+В базовом классе должно быть поле типа enum+
+Описать конструкторы (по умолчанию и со всеми параметрами), переопределить методы toString, equals.
+Создать класс-фабрику для создания объектов иерархии.
+
+*/
+public class Main {
+
+	public static void main (String []args) {
+		
+		System.out.println("MY WEAPONS");
+		
+		Weapons myKnife = new Knife();
+		Knife kn = new Knife();
+		myKnife.setKnife("Tactical knife.");
+		System.out.print(myKnife.getKnife());
+		kn.setLengthKnife(25);
+		System.out.println(" Length knife " + kn.getLengthKnife() + "cm");
+		
+		Weapons myRifle = new Rifle();
+		Rifle rf = new Rifle();
+		myRifle.setRifle("Sports gun.");
+		System.out.print(myRifle.getRifle());
+		rf.setNumbOfRound(1);
+		System.out.println(" Bullet charging " + rf.getNumbOfRound() + " in rifle");
+		
+		Weapons myBow = new Bow();
+		Bow bw = new Bow();
+		myBow.setBow("Olimpic bow.");
+		System.out.print(myBow.getBow());
+		bw.setPullForse(18);
+		System.out.println(" Pull forse bow " + bw.getPullForse() + " pounds");
+	}
+}
