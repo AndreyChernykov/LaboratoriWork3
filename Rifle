@@ -1,0 +1,12 @@
+public class Rifle extends Weapons{
+	
+	private int numbOfRound;
+	
+	public int getNumbOfRound() {
+		return numbOfRound;
+	}
+	
+	public void setNumbOfRound(int numbOfRound) {
+		this.numbOfRound = numbOfRound;
+	}
+}
