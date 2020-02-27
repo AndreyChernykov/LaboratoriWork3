@@ -1,0 +1,12 @@
+public class Bow extends Weapons{
+	
+	private int pullForse;
+	
+	public int getPullForse() {
+		return pullForse;
+	}
+	
+	public void setPullForse(int pullForse) {
+		this.pullForse = pullForse;
+	}
+}
