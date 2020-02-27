@@ -1,0 +1,12 @@
+public class Knife extends Weapons{
+	
+	private int lengthKnife;
+	
+	public int getLengthKnife() {
+		return lengthKnife;
+	}
+	
+	public void setLengthKnife(int lengthKnife) {
+		this.lengthKnife = lengthKnife;
+	}
+}
