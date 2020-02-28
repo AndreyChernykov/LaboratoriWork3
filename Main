@@ -41,21 +41,3 @@ public class Main {
 		System.out.println(myBow.getAmount() + str);
 	}
 }
-
-abstract class Weapons{
-	
-	private enum MyWeapons{
-		KNIFE,
-		RIFLE,
-		BOW;
-	}
-	public int amount; 
-	
-	public int getAmount() {
-		return amount;
-	}
-	
-	public void setAmount(int amount) {
-		this.amount = amount;
-	}
-}
