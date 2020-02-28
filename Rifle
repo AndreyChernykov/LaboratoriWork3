@@ -1,5 +1,6 @@
 public class Rifle extends Weapons{
 	
+	private String rifle;
 	private int numbOfRound;
 	
 	public int getNumbOfRound() {
@@ -8,5 +9,13 @@ public class Rifle extends Weapons{
 	
 	public void setNumbOfRound(int numbOfRound) {
 		this.numbOfRound = numbOfRound;
+	}
+	
+	public String getRifle() {
+		return rifle;
+	}
+	
+	public void setRifle(String rifle) {
+		this.rifle = rifle;
 	}
 }
