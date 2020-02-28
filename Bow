@@ -1,5 +1,6 @@
 public class Bow extends Weapons{
 	
+	private String bow;
 	private int pullForse;
 	
 	public int getPullForse() {
@@ -8,5 +9,13 @@ public class Bow extends Weapons{
 	
 	public void setPullForse(int pullForse) {
 		this.pullForse = pullForse;
+	}
+	
+	public String getBow() {
+		return bow;
+	}
+	
+	public void setBow(String bow) {
+		this.bow = bow;
 	}
 }
